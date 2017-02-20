@@ -6,6 +6,8 @@
 build/
 DerivedData/
 
+/YInkeLiveDemo/YInkeLiveDemo/IJKMediaFramework.framework
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
