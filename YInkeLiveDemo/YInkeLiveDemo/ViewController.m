@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YMainViewController.h"
 
 @interface ViewController ()
 
@@ -17,9 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (IBAction)btnAction:(UIButton *)sender {
+    YMainViewController *liveVC = [[YMainViewController alloc] init];
+    [self.navigationController pushViewController:liveVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

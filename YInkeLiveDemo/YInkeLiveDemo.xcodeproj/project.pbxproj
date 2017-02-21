@@ -22,6 +22,14 @@
 		46D617E11E5B2A09006FB9B6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D617E01E5B2A09006FB9B6 /* CoreMedia.framework */; };
 		46D617E31E5B2A0E006FB9B6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D617E21E5B2A0E006FB9B6 /* AVFoundation.framework */; };
 		46D617E51E5B2A17006FB9B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D617E41E5B2A17006FB9B6 /* AudioToolbox.framework */; };
+		46D617EB1E5C6B03006FB9B6 /* YMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617E91E5C6B03006FB9B6 /* YMainViewController.m */; };
+		46D617EC1E5C6B03006FB9B6 /* YMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D617EA1E5C6B03006FB9B6 /* YMainViewController.xib */; };
+		46D617F21E5C6D37006FB9B6 /* YLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617F01E5C6D37006FB9B6 /* YLiveTableViewCell.m */; };
+		46D617F31E5C6D37006FB9B6 /* YLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D617F11E5C6D37006FB9B6 /* YLiveTableViewCell.xib */; };
+		46D617F71E5C7421006FB9B6 /* UITableViewCell+YAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617F61E5C7421006FB9B6 /* UITableViewCell+YAdd.m */; };
+		46D617FE1E5C797B006FB9B6 /* YBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617FD1E5C797B006FB9B6 /* YBaseModel.m */; };
+		46D618011E5C79FE006FB9B6 /* YLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D618001E5C79FE006FB9B6 /* YLiveModel.m */; };
+		46D618041E5C7A26006FB9B6 /* YCreatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D618031E5C7A26006FB9B6 /* YCreatorModel.m */; };
 		AB93819D0E46AFD291FF9C97 /* libPods-YInkeLiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B470257B00B3433EF4B7B5 /* libPods-YInkeLiveDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +56,20 @@
 		46D617E01E5B2A09006FB9B6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		46D617E21E5B2A0E006FB9B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		46D617E41E5B2A17006FB9B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		46D617E81E5C6B03006FB9B6 /* YMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMainViewController.h; sourceTree = "<group>"; };
+		46D617E91E5C6B03006FB9B6 /* YMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMainViewController.m; sourceTree = "<group>"; };
+		46D617EA1E5C6B03006FB9B6 /* YMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMainViewController.xib; sourceTree = "<group>"; };
+		46D617EF1E5C6D37006FB9B6 /* YLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLiveTableViewCell.h; sourceTree = "<group>"; };
+		46D617F01E5C6D37006FB9B6 /* YLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLiveTableViewCell.m; sourceTree = "<group>"; };
+		46D617F11E5C6D37006FB9B6 /* YLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLiveTableViewCell.xib; sourceTree = "<group>"; };
+		46D617F51E5C7421006FB9B6 /* UITableViewCell+YAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+YAdd.h"; sourceTree = "<group>"; };
+		46D617F61E5C7421006FB9B6 /* UITableViewCell+YAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+YAdd.m"; sourceTree = "<group>"; };
+		46D617FC1E5C797B006FB9B6 /* YBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBaseModel.h; sourceTree = "<group>"; };
+		46D617FD1E5C797B006FB9B6 /* YBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBaseModel.m; sourceTree = "<group>"; };
+		46D617FF1E5C79FE006FB9B6 /* YLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLiveModel.h; sourceTree = "<group>"; };
+		46D618001E5C79FE006FB9B6 /* YLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLiveModel.m; sourceTree = "<group>"; };
+		46D618021E5C7A26006FB9B6 /* YCreatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCreatorModel.h; sourceTree = "<group>"; };
+		46D618031E5C7A26006FB9B6 /* YCreatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCreatorModel.m; sourceTree = "<group>"; };
 		D1B470257B00B3433EF4B7B5 /* libPods-YInkeLiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YInkeLiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +124,7 @@
 		46D617BB1E5B2447006FB9B6 /* YInkeLiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				46D617E61E5C6A4A006FB9B6 /* Classes */,
 				46D617BF1E5B2447006FB9B6 /* AppDelegate.h */,
 				46D617C01E5B2447006FB9B6 /* AppDelegate.m */,
 				46D617C21E5B2447006FB9B6 /* ViewController.h */,
@@ -123,6 +146,67 @@
 				46D617D51E5B2968006FB9B6 /* YInkeLiveDemo.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46D617E61E5C6A4A006FB9B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46D617F81E5C7952006FB9B6 /* YPublic */,
+				46D617F41E5C73F3006FB9B6 /* YCategories */,
+				46D617E71E5C6A4A006FB9B6 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		46D617E71E5C6A4A006FB9B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				46D617E81E5C6B03006FB9B6 /* YMainViewController.h */,
+				46D617E91E5C6B03006FB9B6 /* YMainViewController.m */,
+				46D617EA1E5C6B03006FB9B6 /* YMainViewController.xib */,
+				46D617ED1E5C6C6D006FB9B6 /* Model */,
+				46D617EE1E5C6C6D006FB9B6 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		46D617ED1E5C6C6D006FB9B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46D617FF1E5C79FE006FB9B6 /* YLiveModel.h */,
+				46D618001E5C79FE006FB9B6 /* YLiveModel.m */,
+				46D618021E5C7A26006FB9B6 /* YCreatorModel.h */,
+				46D618031E5C7A26006FB9B6 /* YCreatorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46D617EE1E5C6C6D006FB9B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46D617EF1E5C6D37006FB9B6 /* YLiveTableViewCell.h */,
+				46D617F01E5C6D37006FB9B6 /* YLiveTableViewCell.m */,
+				46D617F11E5C6D37006FB9B6 /* YLiveTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46D617F41E5C73F3006FB9B6 /* YCategories */ = {
+			isa = PBXGroup;
+			children = (
+				46D617F51E5C7421006FB9B6 /* UITableViewCell+YAdd.h */,
+				46D617F61E5C7421006FB9B6 /* UITableViewCell+YAdd.m */,
+			);
+			path = YCategories;
+			sourceTree = "<group>";
+		};
+		46D617F81E5C7952006FB9B6 /* YPublic */ = {
+			isa = PBXGroup;
+			children = (
+				46D617FC1E5C797B006FB9B6 /* YBaseModel.h */,
+				46D617FD1E5C797B006FB9B6 /* YBaseModel.m */,
+			);
+			path = YPublic;
 			sourceTree = "<group>";
 		};
 		57D3CD83476172B5A8E79657 /* Frameworks */ = {
@@ -177,6 +261,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = WVNBUP4CB4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -204,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D617CC1E5B2447006FB9B6 /* LaunchScreen.storyboard in Resources */,
+				46D617F31E5C6D37006FB9B6 /* YLiveTableViewCell.xib in Resources */,
+				46D617EC1E5C6B03006FB9B6 /* YMainViewController.xib in Resources */,
 				46D617C91E5B2447006FB9B6 /* Assets.xcassets in Resources */,
 				46D617C71E5B2447006FB9B6 /* Main.storyboard in Resources */,
 			);
@@ -265,7 +356,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D617C41E5B2447006FB9B6 /* ViewController.m in Sources */,
+				46D618011E5C79FE006FB9B6 /* YLiveModel.m in Sources */,
+				46D617F71E5C7421006FB9B6 /* UITableViewCell+YAdd.m in Sources */,
+				46D618041E5C7A26006FB9B6 /* YCreatorModel.m in Sources */,
+				46D617FE1E5C797B006FB9B6 /* YBaseModel.m in Sources */,
+				46D617EB1E5C6B03006FB9B6 /* YMainViewController.m in Sources */,
 				46D617C11E5B2447006FB9B6 /* AppDelegate.m in Sources */,
+				46D617F21E5C6D37006FB9B6 /* YLiveTableViewCell.m in Sources */,
 				46D617BE1E5B2447006FB9B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

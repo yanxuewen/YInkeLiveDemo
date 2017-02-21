@@ -13,5 +13,10 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import <IJKMediaFramework/IJKMediaFramework.h>
+#import <AFNetworking.h>
+#import <YYModel.h>
+#import <UIImageView+WebCache.h>
+
+#import "UITableViewCell+YAdd.h"
 
 #endif /* YInkeLiveDemo_pch */
