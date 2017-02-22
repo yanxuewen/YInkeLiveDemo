@@ -27,8 +27,8 @@
     _headImageView.layer.masksToBounds = YES;
     _liveLabel.layer.cornerRadius = 10;
     _liveLabel.layer.masksToBounds = YES;
-    _liveLabel.layer.shadowRadius = 1;
-    _liveLabel.layer.shadowColor = [UIColor whiteColor].CGColor;
+    _liveLabel.layer.borderWidth = 1;
+    _liveLabel.layer.borderColor = [UIColor whiteColor].CGColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

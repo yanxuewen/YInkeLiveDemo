@@ -7,6 +7,7 @@
 //
 
 #import "YMainViewController.h"
+#import "YLiveViewController.h"
 #import "YLiveTableViewCell.h"
 #import "YLiveModel.h"
 
@@ -25,7 +26,7 @@
     
     [self loadData];
     
-    self.tableView.rowHeight = 400;
+    self.tableView.rowHeight = 430;
     [self.tableView registerNib:[YLiveTableViewCell getRegisterNib] forCellReuseIdentifier:[YLiveTableViewCell getClassName]];
     
     
@@ -80,7 +81,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    YLiveViewController *liveVC = [[YLiveViewController alloc] init];
+    liveVC.liveModel = _livesArr[indexPath.row];
+    [self presentViewController:liveVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

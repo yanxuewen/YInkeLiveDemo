@@ -30,6 +30,8 @@
 		46D617FE1E5C797B006FB9B6 /* YBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617FD1E5C797B006FB9B6 /* YBaseModel.m */; };
 		46D618011E5C79FE006FB9B6 /* YLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D618001E5C79FE006FB9B6 /* YLiveModel.m */; };
 		46D618041E5C7A26006FB9B6 /* YCreatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D618031E5C7A26006FB9B6 /* YCreatorModel.m */; };
+		46D618091E5DB132006FB9B6 /* YLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D618071E5DB132006FB9B6 /* YLiveViewController.m */; };
+		46D6180A1E5DB132006FB9B6 /* YLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D618081E5DB132006FB9B6 /* YLiveViewController.xib */; };
 		AB93819D0E46AFD291FF9C97 /* libPods-YInkeLiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B470257B00B3433EF4B7B5 /* libPods-YInkeLiveDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,9 @@
 		46D618001E5C79FE006FB9B6 /* YLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLiveModel.m; sourceTree = "<group>"; };
 		46D618021E5C7A26006FB9B6 /* YCreatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCreatorModel.h; sourceTree = "<group>"; };
 		46D618031E5C7A26006FB9B6 /* YCreatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCreatorModel.m; sourceTree = "<group>"; };
+		46D618061E5DB132006FB9B6 /* YLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLiveViewController.h; sourceTree = "<group>"; };
+		46D618071E5DB132006FB9B6 /* YLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLiveViewController.m; sourceTree = "<group>"; };
+		46D618081E5DB132006FB9B6 /* YLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLiveViewController.xib; sourceTree = "<group>"; };
 		D1B470257B00B3433EF4B7B5 /* libPods-YInkeLiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YInkeLiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -151,6 +156,7 @@
 		46D617E61E5C6A4A006FB9B6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				46D618051E5DB11E006FB9B6 /* Live */,
 				46D617F81E5C7952006FB9B6 /* YPublic */,
 				46D617F41E5C73F3006FB9B6 /* YCategories */,
 				46D617E71E5C6A4A006FB9B6 /* Main */,
@@ -207,6 +213,32 @@
 				46D617FD1E5C797B006FB9B6 /* YBaseModel.m */,
 			);
 			path = YPublic;
+			sourceTree = "<group>";
+		};
+		46D618051E5DB11E006FB9B6 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				46D618061E5DB132006FB9B6 /* YLiveViewController.h */,
+				46D618071E5DB132006FB9B6 /* YLiveViewController.m */,
+				46D618081E5DB132006FB9B6 /* YLiveViewController.xib */,
+				46D6180B1E5DB150006FB9B6 /* Model */,
+				46D6180C1E5DB150006FB9B6 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		46D6180B1E5DB150006FB9B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46D6180C1E5DB150006FB9B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		57D3CD83476172B5A8E79657 /* Frameworks */ = {
@@ -292,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D6180A1E5DB132006FB9B6 /* YLiveViewController.xib in Resources */,
 				46D617CC1E5B2447006FB9B6 /* LaunchScreen.storyboard in Resources */,
 				46D617F31E5C6D37006FB9B6 /* YLiveTableViewCell.xib in Resources */,
 				46D617EC1E5C6B03006FB9B6 /* YMainViewController.xib in Resources */,
@@ -359,6 +392,7 @@
 				46D618011E5C79FE006FB9B6 /* YLiveModel.m in Sources */,
 				46D617F71E5C7421006FB9B6 /* UITableViewCell+YAdd.m in Sources */,
 				46D618041E5C7A26006FB9B6 /* YCreatorModel.m in Sources */,
+				46D618091E5DB132006FB9B6 /* YLiveViewController.m in Sources */,
 				46D617FE1E5C797B006FB9B6 /* YBaseModel.m in Sources */,
 				46D617EB1E5C6B03006FB9B6 /* YMainViewController.m in Sources */,
 				46D617C11E5B2447006FB9B6 /* AppDelegate.m in Sources */,
