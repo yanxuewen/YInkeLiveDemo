@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YMainViewController.h"
+#import "YCaptureViewController.h"
 
 @interface ViewController ()
 
@@ -21,8 +22,14 @@
 }
 
 - (IBAction)btnAction:(UIButton *)sender {
-    YMainViewController *liveVC = [[YMainViewController alloc] init];
-    [self.navigationController pushViewController:liveVC animated:YES];
+    if (sender.tag == 100) {
+        YMainViewController *liveVC = [[YMainViewController alloc] init];
+        [self.navigationController pushViewController:liveVC animated:YES];
+    } else if (sender.tag == 101) {
+        YCaptureViewController *captureVC = [[YCaptureViewController alloc] init];
+        [self.navigationController pushViewController:captureVC animated:YES];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

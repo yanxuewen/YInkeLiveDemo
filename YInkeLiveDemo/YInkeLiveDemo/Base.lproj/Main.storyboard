@@ -21,16 +21,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQB-Tl-GV8">
-                                <rect key="frame" x="164" y="194" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQB-Tl-GV8">
+                                <rect key="frame" x="172" y="298.5" width="30" height="30"/>
+                                <state key="normal" title="Live"/>
                                 <connections>
                                     <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DiM-Mi-ush"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BpA-Vp-wWN">
+                                <rect key="frame" x="159.5" y="358.5" width="55" height="30"/>
+                                <state key="normal" title="Capture"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNS-io-04c"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BpA-Vp-wWN" firstAttribute="top" secondItem="bQB-Tl-GV8" secondAttribute="bottom" constant="30" id="2sM-dj-1ZL"/>
+                            <constraint firstItem="bQB-Tl-GV8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZUy-Ih-9YR"/>
+                            <constraint firstItem="bQB-Tl-GV8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="ewK-bR-wrZ"/>
+                            <constraint firstItem="BpA-Vp-wWN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tu6-Dq-bvb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Qow-8o-nH9"/>
                 </viewController>
