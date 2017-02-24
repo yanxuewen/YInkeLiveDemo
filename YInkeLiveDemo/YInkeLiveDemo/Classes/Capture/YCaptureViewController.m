@@ -25,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"Capture";
+    [self setRightBarButtonItem];
     
     _captureSession = [[AVCaptureSession alloc] init];
     
@@ -133,6 +134,21 @@
         [self.view addSubview:_focusCursorImageView];
     }
     return _focusCursorImageView;
+}
+
+- (void)setRightBarButtonItem {
+    UIBarButtonItem *barBtn = [[UIBarButtonItem alloc] initWithTitle:@"切换摄像头" style:UIBarButtonItemStylePlain target:self action:@selector(flipCamera)];
+    self.navigationItem.rightBarButtonItem = barBtn;
+}
+
+- (void)flipCamera {
+    AVCaptureDevicePosition curPosition = _captureInput.device.position;
+    AVCaptureDevicePosition togglePosition = curPosition == AVCaptureDevicePositionFront?AVCaptureDevicePositionBack:AVCaptureDevicePositionFront;
+    AVCaptureDevice *toggleDevice = [self getCaptureoDevice:togglePosition];
+    AVCaptureDeviceInput *toggleDeviceInput = [AVCaptureDeviceInput deviceInputWithDevice:toggleDevice error:nil];
+    [_captureSession removeInput:_captureInput];
+    [_captureSession addInput:toggleDeviceInput];
+    _captureInput = toggleDeviceInput;
 }
 
 - (void)didReceiveMemoryWarning {
