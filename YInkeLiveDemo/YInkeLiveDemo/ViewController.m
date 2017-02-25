@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "YMainViewController.h"
 #import "YCaptureViewController.h"
+#import "YGPUImageFilterViewController.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,9 @@
     } else if (sender.tag == 101) {
         YCaptureViewController *captureVC = [[YCaptureViewController alloc] init];
         [self.navigationController pushViewController:captureVC animated:YES];
+    } else if (sender.tag == 102) {
+        YGPUImageFilterViewController *filterVC = [[YGPUImageFilterViewController alloc] init];
+        [self.navigationController pushViewController:filterVC animated:YES];
     }
     
 }

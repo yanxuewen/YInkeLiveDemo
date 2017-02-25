@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		461C02F51E606270004A8B32 /* YCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461C02F31E606270004A8B32 /* YCaptureViewController.m */; };
 		461C02F61E606270004A8B32 /* YCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461C02F41E606270004A8B32 /* YCaptureViewController.xib */; };
+		462B79CB1E61B93E0004BA5A /* YGPUImageFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B79C91E61B93E0004BA5A /* YGPUImageFilterViewController.m */; };
+		462B79CC1E61B93E0004BA5A /* YGPUImageFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 462B79CA1E61B93E0004BA5A /* YGPUImageFilterViewController.xib */; };
 		46D617BE1E5B2447006FB9B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617BD1E5B2447006FB9B6 /* main.m */; };
 		46D617C11E5B2447006FB9B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617C01E5B2447006FB9B6 /* AppDelegate.m */; };
 		46D617C41E5B2447006FB9B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D617C31E5B2447006FB9B6 /* ViewController.m */; };
@@ -43,6 +45,9 @@
 		461C02F21E606270004A8B32 /* YCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCaptureViewController.h; sourceTree = "<group>"; };
 		461C02F31E606270004A8B32 /* YCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCaptureViewController.m; sourceTree = "<group>"; };
 		461C02F41E606270004A8B32 /* YCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCaptureViewController.xib; sourceTree = "<group>"; };
+		462B79C81E61B93E0004BA5A /* YGPUImageFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGPUImageFilterViewController.h; sourceTree = "<group>"; };
+		462B79C91E61B93E0004BA5A /* YGPUImageFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGPUImageFilterViewController.m; sourceTree = "<group>"; };
+		462B79CA1E61B93E0004BA5A /* YGPUImageFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGPUImageFilterViewController.xib; sourceTree = "<group>"; };
 		46D617B91E5B2447006FB9B6 /* YInkeLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YInkeLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D617BD1E5B2447006FB9B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46D617BF1E5B2447006FB9B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +128,16 @@
 			path = Capture;
 			sourceTree = "<group>";
 		};
+		462B79C71E61B91F0004BA5A /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				462B79C81E61B93E0004BA5A /* YGPUImageFilterViewController.h */,
+				462B79C91E61B93E0004BA5A /* YGPUImageFilterViewController.m */,
+				462B79CA1E61B93E0004BA5A /* YGPUImageFilterViewController.xib */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
 		46D617B01E5B2447006FB9B6 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +186,7 @@
 		46D617E61E5C6A4A006FB9B6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				462B79C71E61B91F0004BA5A /* GPUImage */,
 				46D617E71E5C6A4A006FB9B6 /* Main */,
 				461C02F11E60624C004A8B32 /* Capture */,
 				46D618051E5DB11E006FB9B6 /* Live */,
@@ -345,6 +361,7 @@
 				46D617F31E5C6D37006FB9B6 /* YLiveTableViewCell.xib in Resources */,
 				46D617EC1E5C6B03006FB9B6 /* YMainViewController.xib in Resources */,
 				461C02F61E606270004A8B32 /* YCaptureViewController.xib in Resources */,
+				462B79CC1E61B93E0004BA5A /* YGPUImageFilterViewController.xib in Resources */,
 				46D617C91E5B2447006FB9B6 /* Assets.xcassets in Resources */,
 				46D617C71E5B2447006FB9B6 /* Main.storyboard in Resources */,
 			);
@@ -416,6 +433,7 @@
 				46D617C11E5B2447006FB9B6 /* AppDelegate.m in Sources */,
 				46D617F21E5C6D37006FB9B6 /* YLiveTableViewCell.m in Sources */,
 				46D617BE1E5B2447006FB9B6 /* main.m in Sources */,
+				462B79CB1E61B93E0004BA5A /* YGPUImageFilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

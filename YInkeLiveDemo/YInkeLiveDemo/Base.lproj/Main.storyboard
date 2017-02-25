@@ -35,11 +35,20 @@
                                     <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNS-io-04c"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwL-Uu-uw4">
+                                <rect key="frame" x="150.5" y="418.5" width="74" height="30"/>
+                                <state key="normal" title="GPUImage"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FGh-he-Vsk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BpA-Vp-wWN" firstAttribute="top" secondItem="bQB-Tl-GV8" secondAttribute="bottom" constant="30" id="2sM-dj-1ZL"/>
+                            <constraint firstItem="DwL-Uu-uw4" firstAttribute="top" secondItem="BpA-Vp-wWN" secondAttribute="bottom" constant="30" id="HRQ-Gh-Aq2"/>
                             <constraint firstItem="bQB-Tl-GV8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZUy-Ih-9YR"/>
+                            <constraint firstItem="DwL-Uu-uw4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d8J-bD-8m6"/>
                             <constraint firstItem="bQB-Tl-GV8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="ewK-bR-wrZ"/>
                             <constraint firstItem="BpA-Vp-wWN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tu6-Dq-bvb"/>
                         </constraints>
